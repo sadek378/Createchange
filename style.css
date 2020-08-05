@@ -198,6 +198,12 @@ em,
 i {
     font-style: italic
 }
+.container.work1 {
+    padding: 0px 50px;
+}
+.heading1 {
+    padding-left: 55px;
+}
 
 blockquote {
     color: #272c30;
