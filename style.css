@@ -198,6 +198,28 @@ em,
 i {
     font-style: italic
 }
+
+.slick-dots li button:hover, .slick-dots li button:focus {
+    outline: 0;
+    background: none;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 9px !important;
+    width: 9px !important;
+    margin: 1px 5px;
+    padding: 2px;
+    cursor: pointer;
+    background: gray;
+    border-radius: 50%;
+}
+.slick-dots .slick-active {
+    background: #000 !important;
+}
+
+
+
 .container.work1 {
     padding: 0px 50px;
 }

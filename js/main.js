@@ -3445,6 +3445,8 @@ mainSlider.slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    dots: true,
+    infinite: true,
     fadeIn: true,
     prevArrow: mainSlider.closest('.slider-section').find('.slide-prev-nav'),
     nextArrow: mainSlider.closest('.slider-section').find('.slide-next-nav'),
